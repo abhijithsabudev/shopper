@@ -1,3 +1,3 @@
 class SvgAssets {
-  static String shoppingCart = 'assets/svg/cart.svg';
+  static String shoppingCart = 'assets/svg/carts.svg';
 }

@@ -6,6 +6,7 @@ import 'package:shopper/screens/cart/view/cart.dart';
 import 'package:shopper/screens/category/view/category.dart';
 import 'package:shopper/screens/home/view/home.dart';
 import 'package:shopper/screens/offers/view/offers.dart';
+import 'package:shopper/utils/common/colors.dart';
 
 import '../view_model/dashboard_view_model.dart';
 
@@ -32,8 +33,8 @@ class _DashboardState extends State<Dashboard> {
       bottomNavigationBar: MoltenBottomNavigationBar(
         barColor: Colors.grey.shade300,
         borderColor: Colors.transparent,
-        domeCircleColor: Colors.green.shade500,
-        curve: Curves.ease,
+        domeCircleColor: green,
+        curve: Curves.easeIn,
         selectedIndex: dashboard.selectedIndex,
         onTabChange: (clickedIndex) {
           dashboard.changeIndex(index: clickedIndex);
